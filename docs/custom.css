@@ -1,0 +1,13 @@
+/* Offset the body from the nav-bar that is fixed to the top */
+body {
+  min-height: 75rem;
+  padding-top: 3.5rem;
+}
+
+/* Define the Jumbtron's background image*/
+.jumbotron-bg-image {
+  background-image: url("assets/mountain-top.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
