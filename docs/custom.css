@@ -4,6 +4,19 @@ body {
   padding-top: 3.5rem;
 }
 
+/*
+ * Make the font-size responsive in the Jumbotron so
+ * the word "Telecommunications" fits on small screens
+ */
+@media screen and (max-width: 400px) {
+  div.jumbotron h1 {
+    font-size: 2rem;    /* original value: 2.5 */
+  }
+  div.jumbotron h3 {
+    font-size: 1.5rem;  /* original value: 1.75 */
+  }
+}
+
 /* Define the Jumbtron's background image*/
 .jumbotron-bg-image {
   background-image: url("assets/mountain-top.png");
